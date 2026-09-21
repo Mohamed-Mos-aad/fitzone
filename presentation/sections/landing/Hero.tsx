@@ -3,6 +3,7 @@ import Image from 'next/image'
 // ** Assets
 import background from '@/public/images/herobackground.png'
 import manPhoto from '@/public/images/man.jpg'
+import Button from '@/presentation/components/ui/Button'
 
 
 export default function Hero() {
@@ -39,12 +40,8 @@ export default function Hero() {
                         engineered for profound physical transformation.
                     </p>
                     <div className='flex flex-col sm:flex-row gap-4 sm:gap-8'>
-                        <button className='bg-[#CCFF00] border border-[#CCFF00] px-8 py-4 font-bold text-black [clip-path:polygon(0_0,calc(100%-10px)_0,100%_10px,100%_100%,0_100%)]'>
-                            START TRAINING NOW
-                        </button>
-                        <button className='bg-[#13161C]/80 border border-[#2B313D] px-8 py-4 font-bold text-white [clip-path:polygon(0_0,calc(100%-10px)_0,100%_10px,100%_100%,0_100%)]'>
-                            VIEW MEMBERSHIPS
-                        </button>
+                        <Button title='START TRAINING NOW' type='primary'/>
+                        <Button title='VIEW MEMBERSHIPS' type='secondary'/>
                     </div>
                     <div className='w-full grid grid-cols-2 sm:flex sm:justify-between gap-4 border-t border-[#1C221A] pt-4'>
                         <div>
