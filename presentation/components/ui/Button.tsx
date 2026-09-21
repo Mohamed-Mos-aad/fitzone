@@ -1,12 +1,12 @@
 // ** Interfaces
-interface ButtonProps{
+interface ButtonProps extends Omit<React.ButtonHTMLAttributes<HTMLButtonElement>, 'type'> {    
     title: string;
     type: 'primary' | 'secondary';
 }
 
 
 
-export default function Button({title, type} : ButtonProps) {
+export default function Button({title, type, className, ...props} : ButtonProps) {
     // ** Constants
     const types = {
         primary: 'bg-[#CCFF00] border-[#CCFF00] text-black',
@@ -16,7 +16,7 @@ export default function Button({title, type} : ButtonProps) {
 
 
     return (
-        <button className={`${types[type]} border px-8 py-4 font-bold [clip-path:polygon(0_0,calc(100%-10px)_0,100%_10px,100%_100%,0_100%)] cursor-pointer hover:shadow shadow-[#CCFF00]`}>
+        <button className={`${types[type]} ${className} border px-8 py-4 font-bold [clip-path:polygon(0_0,calc(100%-10px)_0,100%_10px,100%_100%,0_100%)] cursor-pointer hover:shadow shadow-[#CCFF00]`} {...props}>
             {title}
         </button>
     )

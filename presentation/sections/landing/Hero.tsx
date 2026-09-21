@@ -4,6 +4,9 @@ import Image from 'next/image'
 import background from '@/public/images/herobackground.png'
 import heroman from '@/public/images/landing/heroman.png'
 import Button from '@/presentation/components/ui/Button'
+// ** Components
+import Badge from '@/presentation/components/ui/Badge'
+
 
 
 export default function Hero() {
@@ -21,13 +24,13 @@ export default function Hero() {
                 <div className='flex flex-col gap-6 relative'>
                     <span className='w-[50%] aspect-square bg-[#CCFF00]/10 rounded-full absolute blur-3xl left-0 bottom-0'></span>
                     <div className='flex flex-wrap gap-2.5'>
-                        <h2 className='w-fit flex items-center gap-2 border border-[#CCFF00]/40 px-3.5 py-1.5 rounded-full shadow-sm shadow-[#CCFF00] text-[12px] font-bold text-[#CCFF00]'>
-                            <span className='w-2 h-2 flex bg-[#CCFF00] rounded-full'></span>
-                            SYSTEM 04 // PROTOCOL ENGAGED
-                        </h2>
-                        <h2 className='w-fit flex items-center gap-2 bg-[#12151A] border border-[#242933] px-3.5 py-1.5 rounded-full text-[12px] font-bold text-[#D1D5DB]'>
-                            4.98 RATING // 2,400+ ATHLETES
-                        </h2>
+                        <Badge title={
+                            <span className="flex items-center gap-2">
+                                <span className="w-2 h-2 flex bg-[#CCFF00] rounded-full"></span>
+                                SYSTEM 04 // PROTOCOL ENGAGED
+                            </span>
+                        } type='primary'/>
+                        <Badge title='4.98 RATING // 2,400+ ATHLETES' type='secondary'/>
                     </div>
                     <h1 className='text-4xl sm:text-5xl md:text-6xl lg:text-8xl font-bold leading-tight lg:leading-28 italic lg:text-nowrap'>
                         FORGE YOUR
