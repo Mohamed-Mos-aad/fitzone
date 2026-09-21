@@ -8,7 +8,7 @@ import Button from '@/presentation/components/ui/Button'
 
 export default function Hero() {
     return (
-        <div className='w-full min-h-screen h-full lg:h-screen flex items-center justify-center relative py-24 lg:py-0'>
+        <section className='w-full min-h-screen h-full lg:h-screen flex items-center justify-center relative py-24 lg:py-0'>
             <span className='w-[30%] aspect-square bg-[#CCFF00]/10 rounded-full absolute blur-3xl left-[35%] -top-50'></span>
             <Image 
                 src={background} 
@@ -68,6 +68,6 @@ export default function Hero() {
                     <Image src={manPhoto} alt='manPhoto' className='w-fit rounded-xl'/>
                 </div>
             </div>
-        </div>
+        </section>
     )
 }
