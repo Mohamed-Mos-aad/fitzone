@@ -93,11 +93,11 @@ export default function Hero() {
                                 <span className='text-[10px] text-[#9CA3AF] block'>01 // HYPERTROPHY & VELOCITY</span>
                                 <h4 className='text-sm font-bold text-white tracking-wider'>DYNAMIC CORE</h4>
                             </div>
-                            <button className='w-8 h-8 rounded-md bg-[#CCFF00] text-black flex items-center justify-center font-bold text-xs'>
+                            <div className='w-8 h-8 rounded-md bg-[#CCFF00] text-black flex items-center justify-center font-bold text-xs'>
                                 <svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M9.41667 16.5L8.25 15.3333L11.2083 12.375L4.125 5.29167L1.16667 8.25L0 7.08333L1.16667 5.875L0 4.70833L1.75 2.95833L0.583333 1.75L1.75 0.583333L2.95833 1.75L4.70833 0L5.875 1.16667L7.08333 0L8.25 1.16667L5.29167 4.125L12.375 11.2083L15.3333 8.25L16.5 9.41667L15.3333 10.625L16.5 11.7917L14.75 13.5417L15.9167 14.75L14.75 15.9167L13.5417 14.75L11.7917 16.5L10.625 15.3333L9.41667 16.5Z" fill="black"/>
                                 </svg>
-                            </button>
+                            </div>
                         </div>
                         <div className='absolute -bottom-20 -left-16 bg-[#0C0F13]/95 backdrop-blur-md border border-[#1E232D] p-3 rounded-lg shadow-2xl z-20 font-mono hidden sm:block w-52'>
                             <div className='flex justify-between items-center mb-1'>

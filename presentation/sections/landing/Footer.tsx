@@ -17,7 +17,7 @@ export default function Footer() {
                         BUILD // EVOLVE // PERFORM
                     </p>
 
-                    <p className="text-[13px] text-[#9CA3AF] leading-relaxed max-w-xs">
+                    <p className="text-[13px] text-[#9197A1] leading-relaxed max-w-xs">
                         Human optimization through aggressive physiological conditioning and continuous biometric telemetry.
                     </p>
                 </div>
@@ -26,7 +26,7 @@ export default function Footer() {
                     <h3 className="text-[14px] font-bold tracking-widest uppercase text-white">
                         ARCHITECTURE
                     </h3>
-                    <ul className="flex flex-col gap-2.5 text-[13px] text-[#9CA3AF]">
+                    <ul className="flex flex-col gap-2.5 text-[13px] text-[#9197A1]">
                         <li>
                             <Link href="#" className="hover:text-[#CCFF00] transition-colors">Performance Vectors</Link>
                         </li>
@@ -46,7 +46,7 @@ export default function Footer() {
                     <h3 className="text-[14px] font-bold tracking-widest uppercase text-white">
                         OPERATIONS
                     </h3>
-                    <div className="flex flex-col gap-2 text-[13px] text-[#9CA3AF]">
+                    <div className="flex flex-col gap-2 text-[13px] text-[#9197A1]">
                         <p className="font-semibold text-white">Flagship Iron Vault: 24/7 Access</p>
                         <p>Master Coaches: 05:00 - 23:00</p>
                         <p>704 Ironclad Way, Sector 4</p>
@@ -58,7 +58,7 @@ export default function Footer() {
                     <h3 className="text-[14px] font-bold tracking-widest uppercase text-white">
                         ATHLETE DISPATCH
                     </h3>
-                    <p className="text-[13px] text-[#9CA3AF] leading-relaxed">
+                    <p className="text-[13px] text-[#9197A1] leading-relaxed">
                         Weekly training briefs, metabolic data releases, and programming.
                     </p>
                     <form className="flex items-center gap-0 w-full mt-1">
@@ -77,7 +77,7 @@ export default function Footer() {
                 </div>
             </div>
 
-            <div className="border-t border-[#1C221A] pt-8 flex flex-col md:flex-row justify-between items-start md:items-center gap-4 text-[12px] text-[#6B7280] font-mono">
+            <div className="border-t border-[#1C221A] pt-8 flex flex-col md:flex-row justify-between items-start md:items-center gap-4 text-[12px] text-[#9197A1] font-mono">
                 <p>
                     © 2025 FitZone Athletic Performance Labs. Standard of ruthless discipline.
                 </p>

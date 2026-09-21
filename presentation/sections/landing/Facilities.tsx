@@ -34,12 +34,12 @@ export default function Facilities() {
                         />
                         <div className="absolute inset-0 bg-linear-to-t from-[#0A0C0E] via-[#0A0C0E]/40 to-transparent"></div>
                         <div className="flex flex-col gap-1.5 absolute bottom-0 p-6 w-full">
-                            <h3 className="text-[11px] font-bold text-[#CCFF00] tracking-widest uppercase">
+                            <h2 className="text-[11px] font-bold text-[#CCFF00] tracking-widest uppercase">
                                 RECOVERY SUITE
-                            </h3>
-                            <h4 className="text-[20px] font-bold text-white uppercase leading-tight">
+                            </h2>
+                            <h3 className="text-[20px] font-bold text-white uppercase leading-tight">
                                 SUB-ZERO PLUNGE & CEDAR SAUNA
-                            </h4>
+                            </h3>
                             <p className="text-[12px] text-[#9CA3AF] line-clamp-2 leading-relaxed">
                                 Medical-grade contrast therapy down-regulating systemic inflammation and speeding muscular rebuild.
                             </p>
@@ -55,12 +55,12 @@ export default function Facilities() {
                         />
                         <div className="absolute inset-0 bg-linear-to-t from-[#0A0C0E] via-[#0A0C0E]/40 to-transparent"></div>
                         <div className="flex flex-col gap-1.5 absolute bottom-0 p-6 w-full">
-                            <h3 className="text-[11px] font-bold text-[#CCFF00] tracking-widest uppercase">
+                            <h2 className="text-[11px] font-bold text-[#CCFF00] tracking-widest uppercase">
                                 FREE WEIGHT DECK
-                            </h3>
-                            <h4 className="text-[20px] font-bold text-white uppercase leading-tight">
+                            </h2>
+                            <h3 className="text-[20px] font-bold text-white uppercase leading-tight">
                                 URETHANE CALIBRATED UP TO 80 KG
-                            </h4>
+                            </h3>
                             <p className="text-[12px] text-[#9CA3AF] line-clamp-2 leading-relaxed">
                                 Solid stainless handles with 1.2mm volcanic diamond knurling for no-slip heavy presses and pulls.
                             </p>
@@ -76,12 +76,12 @@ export default function Facilities() {
                         />
                         <div className="absolute inset-0 bg-linear-to-t from-[#0A0C0E] via-[#0A0C0E]/40 to-transparent"></div>
                         <div className="flex flex-col gap-1.5 absolute bottom-0 p-6 w-full">
-                            <h3 className="text-[11px] font-bold text-[#CCFF00] tracking-widest uppercase">
+                            <h2 className="text-[11px] font-bold text-[#CCFF00] tracking-widest uppercase">
                                 DIAGNOSTICS LAB
-                            </h3>
-                            <h4 className="text-[20px] font-bold text-white uppercase leading-tight">
+                            </h2>
+                            <h3 className="text-[20px] font-bold text-white uppercase leading-tight">
                                 VO2 MAX & DEXA TELEMETRY
-                            </h4>
+                            </h3>
                             <p className="text-[12px] text-[#9CA3AF] line-clamp-2 leading-relaxed">
                                 Direct breath-by-breath gas exchange to establish individual ventilatory thresholds and lactate turnpoints.
                             </p>
