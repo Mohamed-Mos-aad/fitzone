@@ -7,6 +7,7 @@ import Coaches from "@/presentation/sections/landing/Coaches";
 import Timetable from "@/presentation/sections/landing/Timetable";
 import Facilities from "@/presentation/sections/landing/Facilities";
 import CTASection from "@/presentation/sections/landing/CTASection";
+import Footer from "@/presentation/sections/landing/Footer";
 
 
 
@@ -22,6 +23,7 @@ export default function Home() {
         <Timetable />
         <Facilities />
         <CTASection />
+        <Footer />
       </main>
     </>
   );
