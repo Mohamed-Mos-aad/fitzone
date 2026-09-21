@@ -14,7 +14,7 @@ export default function NavBar() {
 
 
     return (
-        <nav className="bg-[#0A0C0E]/90 border-b border-[#222720] py-4 px-6 lg:px-12 flex items-center justify-between relative">
+        <nav className="bg-[#0A0C0E]/90 border-b border-[#222720] py-4 px-6 z-10000000 lg:px-12 flex items-center justify-between relative">
             <Image src={logo} alt="fitzone logo icon" height={32}/>
             <ul className="hidden lg:flex items-center gap-8 absolute left-1/2 -translate-x-1/2">
                 <li className="hover:text-[#C3F400] cursor-pointer transition-colors"> home </li>

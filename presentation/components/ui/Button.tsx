@@ -16,7 +16,7 @@ export default function Button({title, type} : ButtonProps) {
 
 
     return (
-        <button className={`${types[type]} border px-8 py-4 font-bold [clip-path:polygon(0_0,calc(100%-10px)_0,100%_10px,100%_100%,0_100%)]`}>
+        <button className={`${types[type]} border px-8 py-4 font-bold [clip-path:polygon(0_0,calc(100%-10px)_0,100%_10px,100%_100%,0_100%)] cursor-pointer hover:shadow shadow-[#CCFF00]`}>
             {title}
         </button>
     )

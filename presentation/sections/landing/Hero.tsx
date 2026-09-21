@@ -9,6 +9,7 @@ import Button from '@/presentation/components/ui/Button'
 export default function Hero() {
     return (
         <div className='w-full min-h-screen h-full lg:h-screen flex items-center justify-center relative py-24 lg:py-0'>
+            <span className='w-[30%] aspect-square bg-[#CCFF00]/10 rounded-full absolute blur-3xl left-[35%] -top-50'></span>
             <Image 
                 src={background} 
                 alt='background' 
@@ -16,8 +17,9 @@ export default function Hero() {
                 className='object-cover -z-10'
                 priority 
             />
-            <div className='w-[90%] grid grid-cols-1 lg:grid-cols-[55%_45%] gap-10 lg:gap-16 mx-auto py-4'>
-                <div className='flex flex-col gap-6'>
+            <div className='w-[90%] grid grid-cols-1 lg:grid-cols-[55%_45%] gap-10 lg:gap-16 mx-auto py-4 '>
+                <div className='flex flex-col gap-6 relative'>
+                    <span className='w-[50%] aspect-square bg-[#CCFF00]/10 rounded-full absolute blur-3xl left-0 bottom-0'></span>
                     <div className='flex flex-wrap gap-2.5'>
                         <h2 className='w-fit flex items-center gap-2 border border-[#CCFF00]/40 px-3.5 py-1.5 rounded-full shadow-sm shadow-[#CCFF00] text-[12px] font-bold text-[#CCFF00]'>
                             <span className='w-2 h-2 flex bg-[#CCFF00] rounded-full'></span>
