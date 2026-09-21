@@ -6,6 +6,7 @@ import Plans from "@/presentation/sections/landing/Plans";
 import Coaches from "@/presentation/sections/landing/Coaches";
 import Timetable from "@/presentation/sections/landing/Timetable";
 import Facilities from "@/presentation/sections/landing/Facilities";
+import CTASection from "@/presentation/sections/landing/CTASection";
 
 
 
@@ -20,6 +21,7 @@ export default function Home() {
         <Coaches />
         <Timetable />
         <Facilities />
+        <CTASection />
       </main>
     </>
   );
