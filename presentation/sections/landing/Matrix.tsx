@@ -51,7 +51,7 @@ export default function Matrix() {
                         </svg>
                     </div>
                     <div className="relative">
-                        <Image src={image2} className="w-full" alt="Athlete deadlift grip chalk setup"/>
+                        <Image src={image2} className="w-full" alt="Athlete performing explosive box jump"/>
                         <div className="absolute inset-0 bg-linear-to-t from-[#0A0C0E] via-[#0A0C0E]/40 to-[#0A0C0E]/0"></div>
                         <div className="flex flex-col gap-1 absolute bottom-0 p-4">
                             <h3 className="text-[10px] text-[#CCFF00]">EXPLOSIVE RATE</h3>
@@ -71,7 +71,7 @@ export default function Matrix() {
                         </svg>
                     </div>
                     <div className="relative">
-                        <Image src={image3} className="w-full" alt="Athlete deadlift grip chalk setup"/>
+                        <Image src={image3} className="w-full" alt="Vascular muscular athlete gripping knurled steel"/>
                         <div className="absolute inset-0 bg-linear-to-t from-[#0A0C0E] via-[#0A0C0E]/40 to-[#0A0C0E]/0"></div>
                         <div className="flex flex-col gap-1 absolute bottom-0 p-4">
                             <h3 className="text-[10px] text-[#CCFF00]">STRUCTURAL DENSITY</h3>
@@ -91,7 +91,7 @@ export default function Matrix() {
                         </svg>
                     </div>
                     <div className="relative">
-                        <Image src={image4} className="w-full" alt="Athlete deadlift grip chalk setup"/>
+                        <Image src={image4} className="w-full" alt="Brutalist gym hall with neon lime laser strip accents"/>
                         <div className="absolute inset-0 bg-linear-to-t from-[#0A0C0E] via-[#0A0C0E]/40 to-[#0A0C0E]/0"></div>
                         <div className="flex flex-col gap-1 absolute bottom-0 p-4">
                             <h3 className="text-[10px] text-[#CCFF00]">ATMOSPHERIC FOCUS</h3>

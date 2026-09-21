@@ -64,8 +64,8 @@ export default function Hero() {
                         </div>                        
                     </div>
                 </div>
-                <div className='flex justify-center items-center rounded-2xl overflow-hidden'>
-                    <Image src={heroman} alt='heroman' className='w-fit h-140 rounded-xl'/>
+                <div className='w-full flex justify-center items-center rounded-2xl overflow-hidden'>
+                    <Image src={heroman} alt='heroman' className='w-auto h-auto max-h-100 sm:max-h-120 lg:h-140 rounded-xl'/>
                 </div>
             </div>
         </section>
