@@ -2,7 +2,7 @@
 import Image from 'next/image'
 // ** Assets
 import background from '@/public/images/herobackground.png'
-import manPhoto from '@/public/images/man.jpg'
+import heroman from '@/public/images/landing/heroman.png'
 import Button from '@/presentation/components/ui/Button'
 
 
@@ -64,8 +64,8 @@ export default function Hero() {
                         </div>                        
                     </div>
                 </div>
-                <div className='flex justify-center items-center rounded-2xl'>
-                    <Image src={manPhoto} alt='manPhoto' className='w-fit rounded-xl'/>
+                <div className='flex justify-center items-center rounded-2xl overflow-hidden'>
+                    <Image src={heroman} alt='heroman' className='w-fit h-140 rounded-xl'/>
                 </div>
             </div>
         </section>
